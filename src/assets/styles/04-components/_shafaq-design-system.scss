@@ -94,3 +94,49 @@ button[type="submit"]:hover {
   background: linear-gradient(90deg, var(--shafaq-gold), transparent);
   border-radius: 999px;
 }
+/* SHAFAQ Header */
+
+.shafaq-header {
+  position: relative;
+  z-index: 50;
+}
+
+.shafaq-header .top-navbar {
+  background: linear-gradient(90deg, var(--shafaq-blue), var(--shafaq-blue-2)) !important;
+  color: #fff !important;
+  font-size: 13px;
+  border: 0 !important;
+}
+
+.shafaq-header .top-navbar a,
+.shafaq-header .top-navbar button,
+.shafaq-header .top-navbar salla-contacts {
+  color: #fff !important;
+}
+
+.shafaq-header .header-search {
+  max-width: 540px;
+}
+
+.shafaq-header .main-nav-container {
+  min-height: 82px;
+  box-shadow: 0 12px 34px rgba(10, 46, 92, .08) !important;
+}
+
+.shafaq-header .navbar-brand img {
+  max-height: 62px !important;
+  width: auto !important;
+  object-fit: contain;
+}
+
+.shafaq-header custom-main-menu {
+  margin-inline-start: 28px;
+}
+
+.shafaq-header salla-cart-summary,
+.shafaq-header salla-user-menu {
+  background: #fff;
+  border: 1px solid var(--shafaq-border);
+  border-radius: 999px;
+  box-shadow: var(--shafaq-shadow);
+}
