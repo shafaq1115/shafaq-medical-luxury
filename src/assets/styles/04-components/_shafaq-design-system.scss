@@ -1,0 +1,96 @@
+/* SHAFAQ Medical Luxury Design System */
+
+:root {
+  --shafaq-blue: #0A2E5C;
+  --shafaq-blue-2: #123D7A;
+  --shafaq-blue-3: #1F5DA8;
+  --shafaq-gold: #D4A73F;
+  --shafaq-gold-2: #F1C76A;
+  --shafaq-bg: #F7F9FC;
+  --shafaq-card: #FFFFFF;
+  --shafaq-border: #E5ECF3;
+  --shafaq-text: #1F2937;
+  --shafaq-muted: #6B7280;
+  --shafaq-shadow: 0 12px 34px rgba(10, 46, 92, .10);
+  --shafaq-shadow-hover: 0 20px 48px rgba(10, 46, 92, .16);
+  --shafaq-radius: 20px;
+}
+
+body {
+  background: var(--shafaq-bg) !important;
+  color: var(--shafaq-text);
+}
+
+.store-header,
+.main-nav-container,
+.top-navbar {
+  background: #fff !important;
+  border-color: var(--shafaq-border) !important;
+}
+
+.s-button-primary,
+.btn--primary,
+button[type="submit"] {
+  background: linear-gradient(135deg, var(--shafaq-blue), var(--shafaq-blue-2)) !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+  border: 1px solid var(--shafaq-blue) !important;
+  font-weight: 800 !important;
+}
+
+.s-button-primary:hover,
+.btn--primary:hover,
+button[type="submit"]:hover {
+  background: var(--shafaq-gold) !important;
+  color: var(--shafaq-blue) !important;
+  border-color: var(--shafaq-gold) !important;
+}
+
+.s-product-card-entry,
+.product-card,
+.s-card {
+  background: var(--shafaq-card) !important;
+  border: 1px solid var(--shafaq-border) !important;
+  border-radius: var(--shafaq-radius) !important;
+  box-shadow: var(--shafaq-shadow) !important;
+  overflow: hidden !important;
+  transition: .25s ease !important;
+}
+
+.s-product-card-entry:hover,
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shafaq-shadow-hover) !important;
+}
+
+.s-product-card-content-title,
+.s-product-card-content-title a,
+.product-card__title,
+.product-card__title a {
+  color: var(--shafaq-blue) !important;
+  font-weight: 900 !important;
+}
+
+.s-product-card-price,
+.price {
+  color: #b91c1c !important;
+  font-weight: 900 !important;
+}
+
+.s-block__title,
+.s-block__title h2,
+.s-slider-block__title h2,
+.section-title {
+  color: var(--shafaq-blue) !important;
+  font-weight: 900 !important;
+}
+
+.s-block__title::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 3px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, var(--shafaq-gold), transparent);
+  border-radius: 999px;
+}

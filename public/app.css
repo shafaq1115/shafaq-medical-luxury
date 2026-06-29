@@ -31154,6 +31154,112 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+/* SHAFAQ Medical Luxury Design System */
+:root {
+  --shafaq-blue: #0A2E5C;
+  --shafaq-blue-2: #123D7A;
+  --shafaq-blue-3: #1F5DA8;
+  --shafaq-gold: #D4A73F;
+  --shafaq-gold-2: #F1C76A;
+  --shafaq-bg: #F7F9FC;
+  --shafaq-card: #FFFFFF;
+  --shafaq-border: #E5ECF3;
+  --shafaq-text: #1F2937;
+  --shafaq-muted: #6B7280;
+  --shafaq-shadow: 0 12px 34px rgba(10, 46, 92, .10);
+  --shafaq-shadow-hover: 0 20px 48px rgba(10, 46, 92, .16);
+  --shafaq-radius: 20px;
+}
+body {
+  background: #F7F9FC !important;
+  background: var(--shafaq-bg) !important;
+}
+body {
+  color: #1F2937;
+  color: var(--shafaq-text);
+}
+.store-header,
+.main-nav-container,
+.top-navbar {
+  background: #fff !important;
+  border-color: #E5ECF3 !important;
+  border-color: var(--shafaq-border) !important;
+}
+.s-button-primary,
+.btn--primary,
+button[type=submit] {
+  background: linear-gradient(135deg, #0A2E5C, #123D7A) !important;
+  background: linear-gradient(135deg, var(--shafaq-blue), var(--shafaq-blue-2)) !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+  border: 1px solid #0A2E5C !important;
+  border: 1px solid var(--shafaq-blue) !important;
+  font-weight: 800 !important;
+}
+.s-button-primary:hover,
+.btn--primary:hover,
+button[type=submit]:hover {
+  background: #D4A73F !important;
+  background: var(--shafaq-gold) !important;
+  color: #0A2E5C !important;
+  color: var(--shafaq-blue) !important;
+  border-color: #D4A73F !important;
+  border-color: var(--shafaq-gold) !important;
+}
+.s-product-card-entry,
+.product-card,
+.s-card {
+  background: #FFFFFF !important;
+  background: var(--shafaq-card) !important;
+  border: 1px solid #E5ECF3 !important;
+  border: 1px solid var(--shafaq-border) !important;
+  border-radius: 20px !important;
+  border-radius: var(--shafaq-radius) !important;
+  box-shadow: 0 12px 34px rgba(10, 46, 92, .10) !important;
+  box-shadow: var(--shafaq-shadow) !important;
+  overflow: hidden !important;
+  transition: 0.25s ease !important;
+}
+.s-product-card-entry:hover,
+.product-card:hover {
+  box-shadow: 0 20px 48px rgba(10, 46, 92, .16) !important;
+  box-shadow: var(--shafaq-shadow-hover) !important;
+}
+.s-product-card-entry:hover,
+.product-card:hover {
+  transform: translateY(-6px);
+}
+.s-product-card-content-title,
+.s-product-card-content-title a,
+.product-card__title,
+.product-card__title a {
+  color: #0A2E5C !important;
+  color: var(--shafaq-blue) !important;
+  font-weight: 900 !important;
+}
+.s-product-card-price,
+.price {
+  color: #b91c1c !important;
+  font-weight: 900 !important;
+}
+.s-block__title,
+.s-block__title h2,
+.s-slider-block__title h2,
+.section-title {
+  color: #0A2E5C !important;
+  color: var(--shafaq-blue) !important;
+  font-weight: 900 !important;
+}
+.s-block__title::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 3px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #D4A73F, transparent);
+  background: linear-gradient(90deg, var(--shafaq-gold), transparent);
+  border-radius: 999px;
+}
 .before\:text-orange-300::before{
     content: var(--tw-content);
     --tw-text-opacity: 1;
