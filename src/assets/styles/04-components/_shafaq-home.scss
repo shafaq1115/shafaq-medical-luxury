@@ -278,55 +278,70 @@
     margin:auto;
 }
 
+.shafaq-categories{
+  padding:100px 0;
+  background:#f7f9fc;
+}
+
+.section-head{
+  text-align:center;
+  margin-bottom:60px;
+}
+
 .shafaq-category-grid{
-    display:grid;
-    gap:24px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:28px;
 }
 
 .shafaq-category-grid--seven{
-    grid-template-columns:repeat(7,minmax(150px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
 }
 
 .shafaq-category-card{
-    background:#fff;
-    border-radius:24px;
-    padding:35px 18px;
-    text-align:center;
-    transition:.35s;
-    box-shadow:0 12px 35px rgba(0,0,0,.06);
+  background:#fff;
+  border-radius:24px;
+  padding:34px 24px;
+  min-height:170px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  transition:.35s ease;
+  box-shadow:0 14px 42px rgba(10,46,92,.08);
+  border:1px solid rgba(10,46,92,.06);
 }
 
 .shafaq-category-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 20px 45px rgba(10,46,92,.18);
+  transform:translateY(-8px);
+  box-shadow:0 24px 60px rgba(10,46,92,.16);
+  border-color:#C7A75B;
 }
 
 .shafaq-category-card i{
-    font-size:38px;
-    color:#C7A75B;
-    margin-bottom:18px;
-    display:block;
+  font-size:42px;
+  color:#C7A75B;
+  margin-bottom:16px;
+  display:block;
 }
 
 .shafaq-category-card h3{
-    font-size:16px;
-    color:#0A2E5C;
-    line-height:1.8;
-    font-weight:700;
+  font-size:18px;
+  color:#0A2E5C;
+  line-height:1.6;
+  font-weight:800;
+  margin:0;
 }
 
 @media(max-width:1200px){
-
-.shafaq-category-grid--seven{
-grid-template-columns:repeat(4,1fr);
-}
-
+  .shafaq-category-grid--seven{
+    grid-template-columns:repeat(3,1fr);
+  }
 }
 
 @media(max-width:768px){
-
-.shafaq-category-grid--seven{
-grid-template-columns:repeat(2,1fr);
-}
-
+  .shafaq-category-grid--seven{
+    grid-template-columns:repeat(2,1fr);
+  }
 }
