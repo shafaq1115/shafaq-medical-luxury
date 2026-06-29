@@ -31550,6 +31550,76 @@ button[type=submit]:hover {
     min-height: 280px;
   }
 }
+/* ===========================
+   Medical Categories
+=========================== */
+.shafaq-categories {
+  padding: 90px 0;
+  background: #fff;
+}
+.section-head {
+  text-align: center;
+  margin-bottom: 55px;
+}
+.section-head span {
+  color: #C7A75B;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section-head h2 {
+  font-size: 42px;
+  color: #0A2E5C;
+  margin: 18px 0;
+  font-weight: 800;
+}
+.section-head p {
+  color: #6c7685;
+  max-width: 700px;
+  margin: auto;
+}
+.shafaq-category-grid {
+  display: grid;
+  grid-gap: 24px;
+  gap: 24px;
+}
+.shafaq-category-grid--seven {
+  grid-template-columns: repeat(7, minmax(150px, 1fr));
+}
+.shafaq-category-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 35px 18px;
+  text-align: center;
+  transition: 0.35s;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+}
+.shafaq-category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(10, 46, 92, 0.18);
+}
+.shafaq-category-card i {
+  font-size: 38px;
+  color: #C7A75B;
+  margin-bottom: 18px;
+  display: block;
+}
+.shafaq-category-card h3 {
+  font-size: 16px;
+  color: #0A2E5C;
+  line-height: 1.8;
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  .shafaq-category-grid--seven {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .shafaq-category-grid--seven {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .before\:text-orange-300::before{
     content: var(--tw-content);
     --tw-text-opacity: 1;
