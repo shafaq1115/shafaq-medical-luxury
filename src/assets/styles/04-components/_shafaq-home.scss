@@ -1,0 +1,98 @@
+/* SHAFAQ Home Sections */
+
+.s-block {
+  margin-top: 56px !important;
+  margin-bottom: 56px !important;
+}
+
+.s-block__title,
+.s-slider-block__title {
+  margin-bottom: 24px !important;
+}
+
+.s-block__title h2,
+.s-slider-block__title h2 {
+  color: var(--shafaq-blue) !important;
+  font-weight: 900 !important;
+  font-size: 28px !important;
+}
+
+.s-slider-block__title-right a,
+.s-block__display-all {
+  color: var(--shafaq-gold) !important;
+  font-weight: 800 !important;
+}
+
+.s-block--features,
+.store-features {
+  background: #fff !important;
+  border-radius: 24px !important;
+  box-shadow: var(--shafaq-shadow) !important;
+  border: 1px solid var(--shafaq-border) !important;
+  padding: 24px !important;
+}
+
+.s-block--features i,
+.store-features i {
+  color: var(--shafaq-gold) !important;
+}
+
+.s-block--photos-slider,
+.s-block--fixed-banner {
+  border-radius: 28px !important;
+  overflow: hidden !important;
+  box-shadow: var(--shafaq-shadow) !important;
+}
+
+.s-block--photos-slider img,
+.s-block--fixed-banner img {
+  border-radius: 28px !important;
+}
+
+.s-block--banners .banner-entry,
+.s-block--square-photos .banner-entry,
+.s-block--main-links a {
+  border-radius: 24px !important;
+  overflow: hidden !important;
+  box-shadow: var(--shafaq-shadow) !important;
+  border: 1px solid var(--shafaq-border) !important;
+  transition: .25s ease !important;
+}
+
+.s-block--banners .banner-entry:hover,
+.s-block--square-photos .banner-entry:hover,
+.s-block--main-links a:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shafaq-shadow-hover) !important;
+}
+
+.s-block--main-links i {
+  color: var(--shafaq-blue) !important;
+  background: #eef4fa !important;
+}
+
+.s-block--main-links h3,
+.s-block--main-links span {
+  color: var(--shafaq-blue) !important;
+  font-weight: 900 !important;
+}
+
+.s-product-card-entry {
+  min-height: 100%;
+}
+
+.s-product-card-content {
+  padding: 18px !important;
+}
+
+.s-product-card-image img {
+  object-fit: contain !important;
+  padding: 14px !important;
+}
+
+.s-product-card-sale-price h4,
+.s-product-card-price {
+  color: #b91c1c !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+}
