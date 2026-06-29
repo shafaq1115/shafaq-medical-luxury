@@ -1,37 +1,9 @@
 {% extends "layouts.master" %}
 
 {% block content %}
-  <section class="shafaq-hero">
-    <div class="container">
-      <div class="shafaq-hero__grid">
-        <div class="shafaq-hero__content">
-          <span class="shafaq-hero__eyebrow">SHAFAQ MEDICAL LUXURY</span>
-          <h1>حلول طبية موثوقة لحياة أكثر راحة واستقلالية</h1>
-          <p>
-            كراسي كهربائية، وسائل مساعدة على الحركة، رعاية منزلية، مستلزمات طبية ومنتجات عناية متخصصة بجودة عالية وخدمة موثوقة داخل المملكة.
-          </p>
-          <div class="shafaq-hero__actions">
-            <a href="/categories" class="shafaq-btn shafaq-btn--primary">تسوق الأقسام</a>
-            <a href="/latest-products" class="shafaq-btn shafaq-btn--ghost">أحدث المنتجات</a>
-          </div>
-        </div>
-
-        <div class="shafaq-hero__visual">
-          <div class="shafaq-hero__card">
-            <span>منتجات مختارة</span>
-            <strong>كراسي كهربائية مناسبة للسفر</strong>
-            <small>تصميم خفيف • دعم موثوق • خيارات متعددة</small>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% include "components/shafaq-medical-categories" %}
-
-  {% component home %}
+    {% component home %}
 {% endblock %}
 
 {% block scripts %}
-  <script defer src="{{ 'home.js' | asset }}"></script>
+    <script defer src="{{ 'home.js' | asset }}"></script>
 {% endblock %}
